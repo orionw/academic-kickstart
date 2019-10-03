@@ -1,8 +1,9 @@
 ---
-title: "Humor Detection: A Transformer gets the Last Laugh (EMNLP2019)"
+title: "Humor Detection: A Transformer gets the Last Laugh"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- "Kevin Seppi"
+date: "2019-08-30T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -15,7 +16,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Humor Detection: A Transformer gets the Last Laugh"
+publication: "In the Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing"
 publication_short: ""
 
 abstract: Much previous work has been done in attempting to identify humor in text.  In this paper we extend that capability by assessing whether or not a joke is humorous.  We propose a novel way of approaching this problem by building a model that learns to identify humorous jokes based on ratings gleaned from Reddit pages, consisting of almost 16,000 labeled instances.  Using these ratings to determine the level of humor, we then employ a Transformer architecture for its advantages in learning from sentence context.  We demonstrate the effectiveness of this approach and show results that are comparable to human performance.  We further demonstrate this model's increased capabilities on humor identification problems, such as the previously created datasets for short jokes and puns. These experiments show that this method outperforms all previous work done on these tasks, with F-measures in the low to upper 90s.
@@ -30,8 +31,8 @@ featured: false
 links:
 url_pdf: https://arxiv.org/abs/1909.00252
 url_code: https://github.com/orionw/RedditHumorDetection
-url_dataset: '#'
-url_poster: '#'
+# url_dataset: '#'
+# url_poster: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

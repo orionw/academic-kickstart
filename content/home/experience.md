@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Experience"
@@ -41,6 +41,7 @@ date_format = "Jan 2006"
   title = "Software Engineer"
   company = "Qualtrics"
   date_start = "2019-05-06"
+  date_end = "2019-08-30"
   description = "Member of the Data Pipeline team managing data ingestion, flow, and storage. Responsible for improving the edit system."
 
 [[experience]]

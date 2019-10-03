@@ -6,7 +6,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cp -r public/	orionweller.github.io/
+rm -rf orionweller.github.io/*
+cp -r public/*  orionweller.github.io/
 cd orionweller.github.io
 # Add changes to git.
 git add .
